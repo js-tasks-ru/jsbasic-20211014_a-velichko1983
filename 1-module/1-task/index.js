@@ -4,10 +4,8 @@ function factorial(n) {
     while (n) {
       result *= n;
       n--; 
-  }
-  return result
+    }
+    return result
   }
   return 1
 }
-
-alert(factorial(1))
